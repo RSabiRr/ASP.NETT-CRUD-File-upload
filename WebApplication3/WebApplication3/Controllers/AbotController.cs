@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace WebApplication2.Controllers
         }
         public IActionResult Index()
         {
-            List<Member> members = _context.Members.ToList();
+            List<Member> members = _context.Members.Include("Positsion").ToList();
             return View(members);
         }
     }

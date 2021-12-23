@@ -47,6 +47,12 @@ namespace WebApplication2
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapAreaControllerRoute(
+                    name:"Areas",
+                    areaName:"adminn",
+                    pattern: "adminn/{controller=Account}/{action=Index}/{id?}"
+                    );
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
