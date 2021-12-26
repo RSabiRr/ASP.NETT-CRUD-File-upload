@@ -11,18 +11,20 @@ namespace WebApplication2.Models
     {
         [Key]
         public int Id { get; set; }
-        [MaxLength(250)]
+        [MaxLength(250), Required(ErrorMessage = "Title yaz")]
         public string Title { get; set; }
         [MaxLength(250)]
         public string Image { get; set; }
-        [Column(TypeName="nText")]
+        [NotMapped]
+        public IFromFile ImageFile { get; set; }
+        [Column(TypeName="nText"), Required]
         public string Content { get; set; }
         [Column(TypeName ="money")]
         public decimal Price { get; set; }
         [ForeignKey("Valuation")]
         public int ValuationId { get; set; }
         public Valuation Valuation { get; set; }
-        [ForeignKey("Category")]
+        [ForeignKey("Category"),Required]
         public int CategoryId { get; set; }
         public Category Category { get; set; }
     }

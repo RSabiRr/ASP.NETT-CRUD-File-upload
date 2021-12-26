@@ -27,8 +27,8 @@
                             <th scope="row">@i</th>
                             <td>@item.Name</td>
                             <td>
-                                <a class="btn btn-success" asp-area="adminn" asp-controller="blogCategory" asp-action="update">Update</a>
-                                <a class="btn btn-danger"  asp-area="adminn" asp-controller="blogCategory" asp-action="delete">Delete</a>
+                                <a class="btn btn-success" asp-area="adminn" asp-controller="blogCategory" asp-action="update" asp-route-id="@item.Id" >Update</a>
+                                <a class="btn btn-danger"  asp-area="adminn" asp-controller="blogCategory" asp-action="delete" asp-route-id="@item.Id" onclick="return confirm('Silmek isteyirsiz?')" >Delete</a>
 
                             </td>
                         </tr>

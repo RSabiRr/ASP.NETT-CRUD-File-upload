@@ -10,7 +10,7 @@ namespace WebApplication2.Models
     {
         [Key]
         public int Id { get; set; }
-        [MaxLength(50)]
+        [MaxLength(50),Required(ErrorMessage ="bos saxlamaq olmaz!")]
         public string Name { get; set; }
         public List<Product> Products { get; set; }
     }

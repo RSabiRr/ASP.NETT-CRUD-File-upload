@@ -231,3 +231,6 @@ C:\Users\ADMIN\source\ASP.Net\Новая папка\WebApplication3\WebApplicati
 C:\Users\ADMIN\source\ASP.Net\Новая папка\WebApplication3\WebApplication3\obj\Debug\net5.0\Razor\Areas\adminn\Views\Account\Index.cshtml.g.cs
 C:\Users\ADMIN\source\ASP.Net\Новая папка\WebApplication3\WebApplication3\obj\Debug\net5.0\Razor\Areas\adminn\Views\blogCategory\Index.cshtml.g.cs
 C:\Users\ADMIN\source\ASP.Net\Новая папка\WebApplication3\WebApplication3\obj\Debug\net5.0\Razor\Areas\adminn\Views\blogCategory\create.cshtml.g.cs
+C:\Users\ADMIN\source\ASP.Net\Новая папка\WebApplication3\WebApplication3\obj\Debug\net5.0\Razor\Areas\adminn\Views\blogCategory\update.cshtml.g.cs
+C:\Users\ADMIN\source\ASP.Net\Новая папка\WebApplication3\WebApplication3\obj\Debug\net5.0\Razor\Areas\adminn\Views\Product\Index.cshtml.g.cs
+C:\Users\ADMIN\source\ASP.Net\Новая папка\WebApplication3\WebApplication3\obj\Debug\net5.0\Razor\Areas\adminn\Views\Product\create.cshtml.g.cs
